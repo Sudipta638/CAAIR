@@ -137,40 +137,14 @@ const Gallery = () => {
             <img
               src={image.imageLink}
            
-              onClick={() => openModal(index)}
+             
               className="hover-shadow cursor"
               alt={image.name}
             />
           </div>
         ))}
       </div>
-      {modalOpen && (
-        <div id="photoModal" className="modal">
-          <span className="close cursor" onClick={closeModal}>
-            &times;
-          </span>
-          <ul className="modal-content">
-            {imagesData.map((image, index) => (
-              <div key={index} className="mySlides" style={{ display: index === currentSlide ? 'block' : 'none' }}>
-                <div className="numbertext">
-                  <h4>{index + 1} / {imagesData.length}</h4>
-                  <h4>{image.name}</h4>
-                </div>
-                <img src={image.imageLink}  alt={image.name} />
-              </div>
-            ))}
-            <a className="prev" onClick={() => plusSlides(-1)}>
-              ❮
-            </a>
-            <a className="next" onClick={() => plusSlides(1)}>
-              ❯
-            </a>
-            <div className="caption-container">
-              <p id="caption"></p>
-            </div>
-          </ul>
-        </div>
-      )}
+    
     </div>
   );
 };
