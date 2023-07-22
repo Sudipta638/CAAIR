@@ -199,3 +199,7 @@ body {
   opacity: 1;
   transform: translate3d(0%, -30%, 100px);
 }
+
+.bgcard-gradient-to-r {
+  background-image: linear-gradient(to right, var(--from-color), var(--to-color));
+}
