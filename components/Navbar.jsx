@@ -51,116 +51,126 @@ const Navbar = () => {
         <ul className={`list-none hidden sm:flex flex-row gap-7 `}>
           {navLinks.map((nav) => (
             <>
-              {nav.id ? (
+              {nav.id !== "saicell" ? (
                 <>
-                  <li
-                    key={nav.title}
-                    className={`${
-                      active === nav.title ? "text-white" : "text-slate-100"
-                    } hover:text-white text-[10px] font-medium cursor-pointer `}
-                    onClick={() => setActive(nav.title)}
-                  >
-                    {!nav.children ? (
-                      <>
-                        <Tooltip
-                          title={
-                            <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
-                              {nav.childern.map((navchildren) => (
-                                <>
-                                  <li
-                                    key={navchildren.id}
-                                    className={`font-poppins font-medium cursor-pointer text-[10px] ${
-                                      active === navchildren.title
-                                        ? "text-white"
-                                        : "text-secondary"
-                                    }`}
-                                    onClick={() => {
-                                      setToggle(!toggle);
-                                      setActive(navchildren.title);
-                                    }}
-                                  >
-                                    {navchildren.id !== "almuni_at" ? (
-                                      <>
-                                        {navchildren.id !== "reg" ? (
+                  {nav.id ? (
+                    <>
+                      <li
+                        key={nav.title}
+                        className={`${
+                          active === nav.title ? "text-white" : "text-slate-100"
+                        } hover:text-white text-[10px] font-medium cursor-pointer `}
+                        onClick={() => setActive(nav.title)}
+                      >
+                        {!nav.children ? (
+                          <>
+                            <Tooltip
+                              title={
+                                <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
+                                  {nav.childern.map((navchildren) => (
+                                    <>
+                                      <li
+                                        key={navchildren.id}
+                                        className={`font-poppins font-medium cursor-pointer text-[10px] ${
+                                          active === navchildren.title
+                                            ? "text-white"
+                                            : "text-secondary"
+                                        }`}
+                                        onClick={() => {
+                                          setToggle(!toggle);
+                                          setActive(navchildren.title);
+                                        }}
+                                      >
+                                        {navchildren.id !== "almuni_at" ? (
+                                          <>
+                                            {navchildren.id !== "reg" ? (
+                                              <>
+                                                <Link
+                                                  legacyBehavior
+                                                  href={`/${navchildren.id}`}
+                                                >
+                                                  {navchildren.title}
+                                                </Link>
+                                              </>
+                                            ) : (
+                                              <>
+                                                <button
+                                                  onClick={handleClickOpenforeg}
+                                                  className="text-[10px] text-white"
+                                                >
+                                                  {navchildren.title}
+                                                </button>
+                                              </>
+                                            )}
+                                          </>
+                                        ) : (
                                           <>
                                             <Link
                                               legacyBehavior
-                                              href={`/${navchildren.id}`}
+                                              href="https://www.linkedin.com/school/national-institute-of-technology-durgapur/people/"
                                             >
                                               {navchildren.title}
                                             </Link>
                                           </>
-                                        ) : (
-                                          <>
-                                            <button
-                                              onClick={handleClickOpenforeg}
-                                              className="text-[10px] text-white"
-                                            >
-                                              {navchildren.title}
-                                            </button>
-                                          </>
                                         )}
-                                      </>
-                                    ) : (
-                                      <>
-                                        <Link
-                                          legacyBehavior
-                                          href="https://www.linkedin.com/school/national-institute-of-technology-durgapur/people/"
-                                        >
-                                          {navchildren.title}
-                                        </Link>
-                                      </>
-                                    )}
-                                  </li>
-                                </>
-                              ))}
-                            </ul>
-                          }
-                        >
-                          {nav.title}
-                        </Tooltip>
-                      </>
-                    ) : (
-                      <>
-                        {" "}
-                        <Link href={`/${nav.id}`}>{nav.title} </Link>
-                      </>
-                    )}
+                                      </li>
+                                    </>
+                                  ))}
+                                </ul>
+                              }
+                            >
+                              {nav.title}
+                            </Tooltip>
+                          </>
+                        ) : (
+                          <>
+                            {" "}
+                            <Link href={`/${nav.id}`}>{nav.title} </Link>
+                          </>
+                        )}
 
-                    <div
-                      className={`${
-                        !hovering ? "hidden" : "flex"
-                      } p-6 black-gradient absolute top-40 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
-                    >
-                      <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
-                        {navLinks.map((nav) => (
-                          <li
-                            key={nav.title}
-                            className={`font-poppins font-medium cursor-pointer text-[10px] ${
-                              active === nav.title
-                                ? "text-white"
-                                : "text-secondary"
-                            }`}
-                            onClick={() => {
-                              setToggle(!toggle);
-                              setActive(nav.title);
-                            }}
-                          >
-                            {nav.title}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </li>
+                        <div
+                          className={`${
+                            !hovering ? "hidden" : "flex"
+                          } p-6 black-gradient absolute top-40 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+                        >
+                          <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
+                            {navLinks.map((nav) => (
+                              <li
+                                key={nav.title}
+                                className={`font-poppins font-medium cursor-pointer text-[10px] ${
+                                  active === nav.title
+                                    ? "text-white"
+                                    : "text-secondary"
+                                }`}
+                                onClick={() => {
+                                  setToggle(!toggle);
+                                  setActive(nav.title);
+                                }}
+                              >
+                                {nav.title}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </li>
+                    </>
+                  ) : (
+                    <>
+                      <button
+                        onClick={handleClickOpen}
+                        className="text-[10px] text-white"
+                      >
+                        Institute home
+                      </button>
+                    </>
+                  )}
                 </>
               ) : (
                 <>
-                  <button
-                    onClick={handleClickOpen}
-                    className="text-[10px] text-white"
-                  >
-                    Institute home
-                  </button>
+                  <Link legacyBehavior href="https://sac.alumnitdgp.in/">
+                    <p className="text-[10px] text-white">{nav.title}</p>
+                  </Link>
                 </>
               )}
             </>
@@ -225,9 +235,10 @@ const Navbar = () => {
         onClose={handleCloseforeg}
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
-        maxWidth="lg"fullWidth="lg"
+        maxWidth="lg"
+        fullWidth="lg"
       >
-       <Alumniform/>
+        <Alumniform />
       </Dialog>
     </>
   );

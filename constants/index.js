@@ -110,7 +110,11 @@ export const navLinks = [
     title: "Giving Back",
     children: [],
   },
-
+  {
+    id: "saicell",
+    title: "SAI CELL",
+    children: [],
+  },
   {
     id: "/",
     title: "Almuni Annual Report",
