@@ -1,7 +1,7 @@
 export const navLinks = [
   {
     id: "",
-    title: "Institue Home",
+    title: "Institute Home",
     children: [],
   },
   {
@@ -93,20 +93,20 @@ export const navLinks = [
   },
   {
     id: "/",
-    title: "Achivements",
+    title: "Achievement",
     childern: [
       {
-        id: "achicevements/distunguised_alumni_award",
-        title: "Distingued Almuni Award",
+        id: "achievements/distinguished-alumni-award",
+        title: "Distinguished Almuni Award",
       },
       {
         id: "aa",
-        title: "Almuni Achievements",
+        title: "Almuni Achievement",
       },
     ],
   },
   {
-    id: "contact",
+    id: "giving-back",
     title: "Giving Back",
     children: [],
   },
@@ -116,19 +116,19 @@ export const navLinks = [
     title: "Almuni Annual Report",
     childern: [
       {
-        id: "alumi/2018",
+        id: "aar/2018",
         title: "2018",
       },
       {
-        id: "alumi/2019",
+        id: "aar/2019",
         title: "2019",
       },
       {
-        id: "alumi/2020",
+        id: "aar/2020",
         title: "2020",
       },
       {
-        id: "alumi/2021",
+        id: "aar/2021",
         title: "2021",
       },
     ],
@@ -150,7 +150,7 @@ export const navLinks = [
         title: "Mou",
       },
       {
-        id: "more/almui_services",
+        id: "more/almuni-services",
         title: "Alumni Services",
       },
       {
@@ -849,44 +849,43 @@ export const Eventof2020 = [
   },
 ];
 
-
-export const Eventof2021 =[
+export const Eventof2021 = [
   {
-    imagesrc: "https://alumnitdgp.in/images/sam/Shiuli%20Subhra%20Ghosh%2029_05_2021.jpg",
+    imagesrc:
+      "https://alumnitdgp.in/images/sam/Shiuli%20Subhra%20Ghosh%2029_05_2021.jpg",
     name: "Ms.Shiuli Subrab Ghosh",
     degree: "B.tech,2018,EE",
     post: "",
     date: "29th May,2021-6:00",
     Venue: "microSoft Teams",
-    topic:"",
+    topic: "",
     desc: " Summary: We, at SAI Cell NIT Durgapur, are proud to conduct the series of  Student Alumni Meet (SAM). Now in COVID19 condition, it is not possible to arrange it offline, so we have modified it slightly and renamed it the Online  Student Alumni Meet (oSAM)series The speaker in this session was Ms. Shiuli Subhra Ghosh, an alumnus of our college, electrical engineering branch. This session was about Machine Learning . Ms. Ghosh cleared the doubts and created conceptions about the importance of machine learning in this era of Industry 4.0 and listened to what our mind says.",
-
   },
 
   {
-    imagesrc: "https://alumnitdgp.in/images/sam/_Mr%20Alinjar%20Dan%205_06_2021.jpg",
+    imagesrc:
+      "https://alumnitdgp.in/images/sam/_Mr%20Alinjar%20Dan%205_06_2021.jpg",
     name: "Mr.Alinjar Dan",
     degree: "B.tech,2018,ME",
     post: "",
     date: "29th May,2021-6:00",
     Venue: "microSoft Teams",
-    topic:"Mechatronics , Robotics And Automation Engineering ",
+    topic: "Mechatronics , Robotics And Automation Engineering ",
     desc: "  Summary: We, at SAI Cell NIT Durgapur, are proud to conduct the series of Student Alumni Meet (SAM) . Now in COVID19 condition, it is not possible to arrange it offline, so we have modified it slightly and renamed it the Online Student Alumni Meet (oSAM) series .",
-
   },
   {
-    imagesrc: "https://alumnitdgp.in/images/sam/Mr.Debebrata%20Dey%2012_06_2021.jpg",
+    imagesrc:
+      "https://alumnitdgp.in/images/sam/Mr.Debebrata%20Dey%2012_06_2021.jpg",
     name: "Mr.Debabrata Dey",
     degree: "B.tech,2018,EE",
     post: "",
     date: "12th June,2021-6:00",
     Venue: "microSoft Teams",
-    topic:"Journey from B.Tech to becoming as IES-INDIAN RAILWAYS  ",
+    topic: "Journey from B.Tech to becoming as IES-INDIAN RAILWAYS  ",
     desc: "  We, at SAI Cell NIT Durgapur, are proud to conduct the series of Student Alumni Meet (SAM). Now in COVID19 condition, it is not possible to arrange it offline, so we have modified it slightly and renamed it Online Student Alumni Meet (oSAM) series.",
-
   },
-]
-export const Eventof2022 =[
+];
+export const Eventof2022 = [
   {
     imagesrc: "https://alumnitdgp.in/images/sam/sam22_01.jpg",
     name: "Mr.kaustav Sarkar",
@@ -894,21 +893,20 @@ export const Eventof2022 =[
     post: "Application Enginner, Google",
     date: "22th January 2022 ,6pm",
     Venue: "microSoft Teams",
-    topic:"",
+    topic: "",
     desc: " Summary: Department of Mechanical Engineering , National Institute of Technology Durgapur along with CAAIR is so glad to have conducted a session on Preparation for software engineering jobs under the guidance of MR.Kaustav Sarkar who is an alumnus of NIT Durgapur (Biotechnology ,2014) and currently working as an Application engineer at Google.The main motive of the session is guide students from non CS Department to get an idea on how to prepare for software engineering jobs irrespective of the branch.The audience was greatly interested to know where to start learning coding and its the interest that matters to get the skill required!This session was very much informative and the speaker was so interested to clear all the doubts of the audience.Also it was very good motivation for the participants and a confidence booster that they can pursue their dreams to work at large software firms if they are interested no matter what branch they are in.",
-
   },
 
   {
-    imagesrc: "https://alumnitdgp.in/images/sam/_Mr%20Alinjar%20Dan%205_06_2021.jpg",
+    imagesrc:
+      "https://alumnitdgp.in/images/sam/_Mr%20Alinjar%20Dan%205_06_2021.jpg",
     name: "Mr.Sauvik Mandal",
     degree: "B.tech,2020,ME",
     post: "Analyst-L12 , AcuvonConsulting Pvt Ltd.",
     date: "29th january,2022-6:00",
     Venue: "microSoft Teams",
-    topic:"",
+    topic: "",
     desc: " Summary: Student’s Alumni Interaction Cell, National Institute of Technology Durgapur along with CAAIR is proud to have conducted an interactive session on “Career path after B-Tech”. This session was the need of the hour for B-Tech students and a one stop webinar to get all their ambiguities cleared. The take-away of the meet was the scope of various competitive exams like GATE, ESE, CAT and their preparation strategies. Motivating students, the speaker emphasized that systematic preparation is as important as self-efforts and dedication. Speaker also threw light on skill sets and qualities which are essential for roles in consulting firms, research works and managerial roles. Apart from academics, the speaker advised students to develop good communication skills and bonding with seniors to make the best of student life in college. This informative webinar reached its flag end after the Student Alumni Interaction Cell expressed their immense gratitude to Sauvik Mandal for his time and presented him a Certificate of appreciation as a token of love.",
-
   },
   {
     imagesrc: "	https://alumnitdgp.in/images/sam/sam22_03.jpg",
@@ -917,12 +915,11 @@ export const Eventof2022 =[
     post: "Resarch Scholar in the Department of Aplied Mechanics ,IIT Madras",
     date: "19th February ,2022-6:00",
     Venue: "microSoft Teams",
-    topic:"Higher Sttudies and Research fields after B.Teech ",
+    topic: "Higher Sttudies and Research fields after B.Teech ",
     desc: "  We, at SAI Cell NIT Durgapur, are proud to conduct the series of Student Alumni Meet (SAM). Now in COVID19 condition, it is not possible to arrange it offline, so we have modified it slightly and renamed it Online Student Alumni Meet (oSAM) series.",
-
   },
-]
-export const EALS2022 =[
+];
+export const EALS2022 = [
   {
     imagesrc: "	https://alumnitdgp.in/images/eals/oeal22_01.jpg",
     name: "Mr.Sourav Sen",
@@ -930,9 +927,8 @@ export const EALS2022 =[
     post: "Manging Director & CEO of Elrich India",
     date: "9th April,2022 - 6pm",
     Venue: "MicroSoft Teams",
-    topic:"Career Pathways after Masters and beyond",
+    topic: "Career Pathways after Masters and beyond",
     desc: " Summary: Students' Alumni Interaction Cell, National Institute of Technology , Durgapur along with CAAIR  organized an Online Eminent Alumni Lecture with Mr. Sourav Sen (Mechanical Engineering, NIT Durgapur, 1991). He is currently the Managing Director &amp; CEO of Eirich India. He has also studied business management at IBMR Kolkata and completed MDP from IIM Ahmedabad along with an International Management Program Degree from IFL, Stockholm School of Economics. ",
-
   },
 
   {
@@ -942,13 +938,12 @@ export const EALS2022 =[
     post: " Sr Scrum Master at National Student clearinghouse,Virginia, United States",
     date: "2nd April,2022-6:00",
     Venue: "MicroSoft Teams",
-    topic:"Why one needs to be Agile and Emotionally intelligent to be successful?",
+    topic:
+      "Why one needs to be Agile and Emotionally intelligent to be successful?",
     desc: " Summary:  : Students' Alumni Interaction Cell, National Institute of Technology, Durgapur along with CAAIR  organized an online Student Alumni Meet with Mr. Sumit Aggarwal (B. Tech in ECE, NIT durgapur, 1998) who has 20+ years of experience in IT with 7+ years of Agile journey, is currently a Sr Scrum Master at National Student clearinghouse  Virginia, United States. He explained that everything happens for a reason and helped us to think that Be Positive - Life is Good . He shared some valuable insights on the importance of agile and emotional intelligence. The four values of Agile are :",
-
   },
-
-]
-export const EALS2021 =[
+];
+export const EALS2021 = [
   {
     imagesrc: "https://alumnitdgp.in/images/eals/mj.jpg    ",
     name: "Dr.Monoj Ojha",
@@ -956,9 +951,8 @@ export const EALS2021 =[
     post: " Director-Data Science, Advanced Analysis and Transportation,Advancement Strategy LLC ,Columbia ,USA",
     date: "13/12/2021",
     Venue: " Hybrid(Ms teams + Campus)",
-    topic:" AI, Big Data and ML in Transportation Engineering",
+    topic: " AI, Big Data and ML in Transportation Engineering",
     desc: " Summary:  : Our Eminent Alumni Dr. Manoj Jha came to our campus on his visit to India on 13th December and from there we had a Hybrid Learning cum Interaction session on AI and ML in transportation engineering. He is itself the Director of his Transportation Engineering Company where they build new technologies to make transportation safe and Easier for all. In the Session, he explained how Artificial Intelligence is going to be a game-changer in the future. He emphasized we have good communication skills so that we can pitch our ideas Awesomely. He also gave some guidance about how we can get an Internship in his company. It is a matter of great pride that our Institute has been the alma mater of such distinguished people who remember their college and inspire the young generation and present learners towards development and excellence. We are immensely grateful to Dr. Jha for conducting such an informative and productive lecture. We wish him all the best for all his future endeavors and hope he will always be there to guide us",
-
   },
 
   {
@@ -968,9 +962,8 @@ export const EALS2021 =[
     post: "  Additional Chief Engineer, Delhi Jal Board Government of Delhi",
     date: "5.12.2021 - 10:30AM",
     Venue: "",
-    topic:"",
+    topic: "",
     desc: " Summary: Students’ Alumni Interaction Cell NIT Durgapur is proud to have Mr. Sandeep Kapoor as our Eminent Speaker. This session was an interactive one with the speaker motivating us with his vast knowledge and experience. The speaker talked to us about the importance of discipline and mental strength and how to utilize various techniques like Yoga and Meditation for our well-being. He enlightened us about different fields that we can pursue in the government, private, and Research and Development sectors and motivated us to be the best version of ourselves. The audience was thrilled and enjoyed the interaction with the speaker. The speaker cleared all our doubts. The session was a great learning experience and we hope that our alumni will always be there to motivate and enlighten us with their knowledge and experience.",
-
   },
   {
     imagesrc: "https://alumnitdgp.in/images/eals/dg.jpg",
@@ -979,13 +972,11 @@ export const EALS2021 =[
     post: "  Senior Principal Scientist, CMERI Durgapur",
     date: "4.12.2021 - 4:00 PM",
     Venue: "",
-    topic:" Failure Analysis of Engineers Components",
+    topic: " Failure Analysis of Engineers Components",
     desc: " Summary: Student Alumni Interaction Cell NIT Durgapur is proud to have Dr. Debashis Ghosh as our Eminent Speaker. Dr. Debashish Ghosh elaborated on Failure Analysis of Engineering Components and he explained the working and objective behind various complex machiner and investigation of components in a manner that enlightened our audience greatly. Failure analysis is an important aspect in any industry to increase efficiency and this knowledge greatly benefitted the students. He also cleared our doubts and motivated us to pursue our goals. The session was a great learning experience and we hope that our alumni will always be there to motivate and enlighten us with their knowledge and experience.",
-
   },
-
-]
-export const EALS2020 =[
+];
+export const EALS2020 = [
   {
     imagesrc: "https://alumnitdgp.in/images/eals/no_image.jpg ",
     name: "Dr.Jayanta Biswas",
@@ -993,9 +984,8 @@ export const EALS2020 =[
     post: " Associate director and outstanding scientist in Nuclear Power Compention of Industrial Ltd.",
     date: "January 4, 2020",
     Venue: " SAC",
-    topic:"",
+    topic: "",
     desc: "",
-
   },
   {
     imagesrc: "https://alumnitdgp.in/images/eals/no_image.jpg ",
@@ -1004,13 +994,10 @@ export const EALS2020 =[
     post: " Deputy General Manager, Hindustan Petroleum, Bombay.",
     date: "January 4, 2020",
     Venue: " SAC",
-    topic:"",
+    topic: "",
     desc: "",
-
   },
 
- 
- 
   {
     imagesrc: "https://alumnitdgp.in/images/eals/no_image.jpg ",
     name: "Mr.Biswajeet Mukherjee",
@@ -1018,24 +1005,22 @@ export const EALS2020 =[
     post: "  Risk Analytic Division, Federal Reserve Bank of New York",
     date: "",
     Venue: "SAC",
-    topic:"",
+    topic: "",
     desc: "",
-
   },
-
-
-]
-export const EALS2018 =[
+];
+export const EALS2018 = [
   {
     imagesrc: "https://alumnitdgp.in/images/eals/1.jpg ",
     name: "Dr.Subhash Ranjan Pati",
     degree: "1971,BE ,Metallurgical Enginerring",
     post: " Founder, Materials Technology Solutions, Loveland, Ohio, USA.",
     date: "February 05, 2018",
-    Venue: " Golden Jubilee Seminar Room, Department of Metallurgy &amp; Materials Engineering. NIT Durgapur",
-    topic:"Materials Technology for Long Term Reliability of Pulp &amp; Paper Mill Process Equipment",
+    Venue:
+      " Golden Jubilee Seminar Room, Department of Metallurgy &amp; Materials Engineering. NIT Durgapur",
+    topic:
+      "Materials Technology for Long Term Reliability of Pulp &amp; Paper Mill Process Equipment",
     desc: "An invited talk, which is a part of the Eminent Alumni Lecture series was jointly organised by Department of Metallurgical and Materials Engineering, NIT Durgapur and Alumni Cell, NIT Durgapur on February 05, 2018 at NIT Durgapur. The talk was delivered by Dr. Subhash Ranjan Pati, an eminent alumnus of the Institute and the topic was Materials Technology for Long Term Reliability of Pulp &amp; Paper Mill Process Equipment. The paper industry is one of the most important industries in green India. The enhancement of the equipment such as Fourdrinier machines, pulpers, refiners etc. is really essential. The material make-up of the equipment decides the longevity, as the properties of the material determine the amount of stress, the machine can withstand. Suitable material usage can improve the machinery and its reliability as well.",
-
   },
   {
     imagesrc: "https://alumnitdgp.in/images/eals/2.jpg",
@@ -1044,13 +1029,10 @@ export const EALS2018 =[
     post: " Former Head, Industrial Engineering Dept., Durgapur Steel Plant, Durgapur",
     date: "February 05, 2018",
     Venue: "  ME Seminar Room, NIT Durgapur",
-    topic:"Role of Indian Yoga &amp; Meditation for Engineering Profession",
+    topic: "Role of Indian Yoga &amp; Meditation for Engineering Profession",
     desc: "On 22nd February, 2018, NIT Durgapur’s notable alumni, Mr. Subhash Chandra Samanta, Former Head, Industrial Engineering Dept., Durgapur Steel Plant (DSP), Durgapur and Alumnus of this Institute  graced everyone with his wonderful speech on yoga and its impact in engineering profession. He taught everyone about the advantages of different asanas in yoga, Hathayoga and Rajayoga which talks about the physical and mental purification, how to cope up with the increasing stress levels in the day to day life. Yoga is important for the healthy being of everyone. It creates a sense of total balance between all the body parts. So its an essential discipline that must be added in an engineers daily routine. The seminar was really helpful and gave a new perspective to every student.",
-
   },
 
- 
- 
   {
     imagesrc: "https://alumnitdgp.in/images/eals/3.jpg    ",
     name: "Mr.Das Ajee kamath",
@@ -1058,14 +1040,12 @@ export const EALS2018 =[
     post: "  Chairman and Managing Director, GYATK RVCR Apparatus (P) Ltd., Pune, India",
     date: "March17,2018",
     Venue: "Hall,NIT Durgapur",
-    topic:" Topic : RVCR-The Evolutionary leap in Kinematic Mechanism leading to the birth of New age Machine",
+    topic:
+      " Topic : RVCR-The Evolutionary leap in Kinematic Mechanism leading to the birth of New age Machine",
     desc: "The jointly organised ‘Eminent Alumni Lecture’ by NIT Durgapur Alumni Cell and Team Aavishkar 2018 presented us with an interactive session on the Revolutionary RVCR Technology with Mr Ajee Kamath Das, Chairman and MD of GYATK RVCR APPARATUS (P) LTD &amp; Alumnus of this institute on 17th March 2018. The inventor narrated the journey of how his sheer thought in his young age got developed into RVCR. He amazingly explained the working of the complex RVCR in layman’s terms and its superiority through the intelligent use of his presentation. His anecdotes added good flavour to the session and the lecture concluded with photo-shoots of the eminent alumnus with his alma-mater juniors and professors.  ",
-
   },
-
-
-]
-export const IIIP =[
+];
+export const IIIP = [
   {
     imagesrc: "	https://alumnitdgp.in/images/shreeja.jpg    ",
     name: "Mrs.Sreeja bhattacharayya",
@@ -1073,10 +1053,8 @@ export const IIIP =[
     post: " Senior Manager, Technical Service, NSPCL Durgapur, NTPC Ltd.",
     date: "February 05, 2021 - 4:00 pm",
     Venue: " MS Teams",
-    topic:"Use of Artificial Intelligence in Advanced Manufacturing "
-,
+    topic: "Use of Artificial Intelligence in Advanced Manufacturing ",
     desc: "Summary: Department of Civil Engineering, NIT Durgapur in association with CEC and CAAIR was proud to conduct an Industry Institute Talk on Tall Structures: Chimney by Ms. Sreeja Bhattacharya, Senior Manager, Technical Service, NSPCL Durgapur, NTPC Ltd. The talk consisted of visualization, identification, need, and conceptualization behind different structures especially Chimney and its use in the industry. The speaker's versatility, zeal, and knowledge greatly impressed the audience who interacted with her to understand the topic in depth. The speaker successfully cleared all the concepts and doubts arising in the audience's mind. Topics pertaining to the industry as such are of prime interest in students' minds and the speaker's knowledge greatly helped in motivating the students. We are extremely thankful to Ms. Sreeja Bhattacharyya for her session and hope to always connect with her.",
-
   },
   {
     imagesrc: "	https://alumnitdgp.in/images/lecture/sc.JPG    ",
@@ -1085,13 +1063,10 @@ export const IIIP =[
     post: " CEO, JCB India Ltd",
     date: "February 10, 2020",
     Venue: "  NAB 401, NIT Durgapur",
-    topic:" New age leadership: Key Expectation",
+    topic: " New age leadership: Key Expectation",
     desc: "",
-
   },
 
- 
- 
   {
     imagesrc: "https://alumnitdgp.in/images/lecture/sfps.jpg ",
     name: "Mr. Sabas Fernando, Dy. General Manager Mr. Piyush Saurabh , Sr. Manager, TATA Motors, Jamshedpur",
@@ -1099,10 +1074,7 @@ export const IIIP =[
     post: "",
     date: "March14&15,2020",
     Venue: "NAB 401, NIT Durgapur",
-    topic:"  Automotive Industry: Challenges and Opportunities",
+    topic: "  Automotive Industry: Challenges and Opportunities",
     desc: " Summary:On 14th March, 2020, the very distinguished alumni of NIT Durgapur, Mr. Sabas Fernando, General Manager and Mr. Piyush Saurabh, Sr. Manager of TATA Motors, Jamshedpur helped everyone with their wonderful speeches and interactive sessions on Automotive Industry and the challenges and opportunities faced by it. As one of the guests started talking about ‘an engineer’s mindset’, the discussion also went on the statement that “before properly figuring out what to do in life, Indians tend to become an engineer. Talking about the opportunities, there are many which included automobile designer, manufacturer, internet marketing, salesperson, and so on. However, they also mentioned that there may not be a desirable campus placement scenario since the company is not growing as per expectations. The above scopes and opportunities in the lecture was followed by an interactive session on the challenges faced by the industry, where it was mentioned how they have to face the pressure imposed by environmental, customer demands and competitive pressures on cost, quality, performance and manufacturability of the vehicles. The industry also has to face issues regarding fuel economy, gas emissions, safety and affordability. Thus they concluded the speech with a positive note encouraging the students to work hard and believe in themselves in order to achieve excellence.",
-
   },
-
-
-]
+];
