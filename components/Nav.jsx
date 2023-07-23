@@ -16,7 +16,7 @@ const Nav = () => {
           </div>
         </div>
       </div>
-       <Navbar/>
+      <Navbar />
     </div>
   );
 };
