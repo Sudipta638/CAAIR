@@ -106,8 +106,8 @@ export const navLinks = [
     ],
   },
   {
-    id: "contact",
-    title: "giving Back",
+    id: "giving-back",
+    title: "Giving Back",
     children: [],
   },
 

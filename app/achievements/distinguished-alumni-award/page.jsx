@@ -1,4 +1,4 @@
-import Distinguished_Alumni from "@/components/Achievement/distinguished_Alumni";
+import Distinguished_Alumni from "@/components/Achievement/Distinguished_Alumni";
 import React from "react";
 
 const page = () => {
