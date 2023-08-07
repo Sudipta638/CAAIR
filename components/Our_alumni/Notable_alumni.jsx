@@ -10,7 +10,7 @@ const Notable_alumni = () => {
       </h1>
       <div className="md:grid grid-cols-2 gap-8">
         {alumniData.map((alumni, index) => (
-          <AlumniCard key={index} image={alumni.image} name={alumni.name} />
+          <AlumniCard key={index} image={alumni.image} name={alumni.name} degree={alumni.degree} designation={alumni.designation} />
         ))}
       </div>
     </div>
